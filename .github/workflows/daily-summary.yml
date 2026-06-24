@@ -2,10 +2,9 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    # GitHub Actions cron is in UTC. 23:00 UTC ≈ 07:00 Beijing (UTC+8),
-    # which leaves a ~2h margin before a 09:00 local delivery.
-    # Adjust this to roughly 2 hours before your own 9am.
-    - cron: '0 23 * * *'
+    # GitHub Actions cron is in UTC. 21:00 UTC = 05:00 Beijing (UTC+8),
+    # which leaves a ~2h margin before the 07:00 Beijing delivery.
+    - cron: '0 21 * * *'
   workflow_dispatch:      # Allow manual trigger
 
 jobs:
