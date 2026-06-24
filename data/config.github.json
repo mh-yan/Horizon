@@ -2,13 +2,14 @@
   "version": "1.0",
   "ai": {
     "provider": "openai",
-    "model": "gpt-4",
-    "api_key_env": "OPENAI_API_KEY",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY",
+    "base_url": "https://api.deepseek.com",
     "temperature": 0.3,
-    "max_tokens": 4096,
+    "max_tokens": 8192,
     "throttle_sec": 0,
-    "analysis_concurrency": 1,
-    "enrichment_concurrency": 1
+    "analysis_concurrency": 3,
+    "enrichment_concurrency": 2
   },
   "email": {
     "enabled": false,
@@ -24,20 +25,27 @@
   "sources": {
     "github": [
       {
-        "type": "user_events",
-        "username": "torvalds",
+        "type": "repo_releases",
+        "owner": "astral-sh",
+        "repo": "uv",
         "enabled": true
       },
       {
         "type": "repo_releases",
-        "owner": "astral-sh",
-        "repo": "uv",
+        "owner": "ollama",
+        "repo": "ollama",
+        "enabled": true
+      },
+      {
+        "type": "repo_releases",
+        "owner": "vllm-project",
+        "repo": "vllm",
         "enabled": true
       }
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 20,
+      "fetch_top_stories": 30,
       "min_score": 100
     },
     "rss": [
@@ -45,13 +53,31 @@
         "name": "Simon Willison",
         "url": "https://simonwillison.net/atom/everything/",
         "enabled": true,
-        "category": "ai-tools"
+        "category": "ai-llm"
       },
       {
-        "name": "LWN.net (subscriber full-text)",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": false,
-        "category": "linux"
+        "name": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "enabled": true,
+        "category": "ai-llm"
+      },
+      {
+        "name": "GitHub Blog",
+        "url": "https://github.blog/feed/",
+        "enabled": true,
+        "category": "dev-oss"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/feed/",
+        "enabled": true,
+        "category": "startup"
+      },
+      {
+        "name": "a16z",
+        "url": "https://a16z.com/feed/",
+        "enabled": true,
+        "category": "startup"
       }
     ],
     "reddit": {
@@ -64,16 +90,25 @@
           "time_filter": "day",
           "fetch_limit": 15,
           "min_score": 50
-        }
-      ],
-      "users": [
+        },
         {
-          "username": "iamthatis",
+          "subreddit": "LocalLLaMA",
           "enabled": true,
-          "sort": "new",
-          "fetch_limit": 10
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 50
+        },
+        {
+          "subreddit": "programming",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 100
         }
       ],
+      "users": [],
       "fetch_comments": 5
     },
     "twitter": {
@@ -101,16 +136,16 @@
       ]
     },
     "ossinsight": {
-      "enabled": false,
+      "enabled": true,
       "period": "past_24_hours",
       "languages": ["All", "Python", "TypeScript"],
       "keywords": [],
-      "min_stars": 10,
-      "max_items": 30
+      "min_stars": 25,
+      "max_items": 20
     }
   },
   "filtering": {
-    "ai_score_threshold": 6.0,
+    "ai_score_threshold": 6.5,
     "time_window_hours": 24,
     "max_items": null,
     "category_groups": {},
