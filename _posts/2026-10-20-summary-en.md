@@ -5,465 +5,583 @@ date: 2026-10-20
 lang: en
 ---
 
-> From 47 items, 19 important content pieces were selected
+> From 59 items, 24 important content pieces were selected
 
 ---
 
-1. [Mistral launches Timestral, a 209M-parameter time-series foundation model](#item-1) ⭐️ 8.0/10
-2. [Engineers Grapple with Shipping AI-Written Code They Don't Fully Understand](#item-2) ⭐️ 8.0/10
-3. [Plex2Shell exploit chain actively exploited to deploy cryptominers](#item-3) ⭐️ 8.0/10
-4. [Inception Labs launches Mercury 3, a fast diffusion-based language model](#item-4) ⭐️ 8.0/10
-5. [Single-Motor Drone Uses Special Hinge and Torque Modulation](#item-5) ⭐️ 7.0/10
-6. [Wine ported to OpenBSD, runs modern Windows games](#item-6) ⭐️ 7.0/10
-7. [Mac.apk runs Android apps natively on Apple Silicon Macs](#item-7) ⭐️ 7.0/10
-8. [IEEE Spectrum reports on the rise of animal-testing alternatives](#item-8) ⭐️ 7.0/10
-9. [PostgreSQL Reverts LLM-Assisted Changes to Preserve Community Trust](#item-9) ⭐️ 7.0/10
-10. [Let's Encrypt adds two more remote perspectives for domain validation](#item-10) ⭐️ 7.0/10
-11. [Hugging Face launches TorchNeuron to simplify running models on AWS Trainium](#item-11) ⭐️ 7.0/10
-12. [Amazon develops TorchNeuron to break Nvidia's PyTorch lock-in](#item-12) ⭐️ 7.0/10
-13. [Hackers Breach OpenCode, Steal API Keys and Run Up AI Charges](#item-13) ⭐️ 7.0/10
-14. [Tenstorrent raises $1.5B at $6.2B valuation to stay independent](#item-14) ⭐️ 7.0/10
-15. [Amazon to fund 12 small nuclear reactors at former Indiana coal plant](#item-15) ⭐️ 7.0/10
-16. [Nvidia launches open models for enterprise and on-device AI agents](#item-16) ⭐️ 7.0/10
-17. [Cohere's North Micro Vision encoder gains llama.cpp support](#item-17) ⭐️ 7.0/10
-18. [AI labs report benchmark scores 6.4% higher than independent testers, on average](#item-18) ⭐️ 7.0/10
-19. [inclusionAI releases Ming-3.0-audio-flash, a 126B-parameter audio-language MoE model](#item-19) ⭐️ 7.0/10
+1. [DeepSeek open-sources DeepInfer inference framework for V4.1-Flash](#item-1) ⭐️ 9.0/10
+2. [Mistral Launches Voxtral 3 Speech-to-Text and Voice Agent SDK](#item-2) ⭐️ 8.0/10
+3. [Google open-sources TorchTPU, a native PyTorch backend for TPUs](#item-3) ⭐️ 8.0/10
+4. [eMudhra Intermediate CA Compromise Exposes Weak Keys and Revocation Gaps](#item-4) ⭐️ 8.0/10
+5. [Cloudflare's tsrs ports TypeScript to Rust for speed and WASM sandboxing](#item-5) ⭐️ 8.0/10
+6. [Google Cloud europe-west2 outage disrupts European banks](#item-6) ⭐️ 8.0/10
+7. [Fake Statistics Can Get Your Content Cited by LLMs](#item-7) ⭐️ 8.0/10
+8. [NVIDIA Cosmos3-H-Dreams: Real-Time Generative Simulator for Surgery](#item-8) ⭐️ 8.0/10
+9. [Anthropic pitches AI safety bill with judicial approval loophole](#item-9) ⭐️ 8.0/10
+10. [Go Releases Emergency Update to Block Eight CA Keys](#item-10) ⭐️ 8.0/10
+11. [Ofcom Concedes Defeat in 4chan Case](#item-11) ⭐️ 7.0/10
+12. [Deep Sea Life Near Deepwater Horizon Site Shows Little Recovery 16 Years After Spill](#item-12) ⭐️ 7.0/10
+13. [Researcher Removes 300 Malicious Tor Exit Nodes](#item-13) ⭐️ 7.0/10
+14. [MicroG: Open-Source Reimplementation of Google Play Services for De-Googled Android](#item-14) ⭐️ 7.0/10
+15. [Paul Tyma Remembers Bob Cringely: Visionary Ideas, Lack of Discipline](#item-15) ⭐️ 7.0/10
+16. [Facebook Pages now require paid subscription to post more than two links per month](#item-16) ⭐️ 7.0/10
+17. [Rust Compiler's 2026 Roadmap: New Trait Solver and More](#item-17) ⭐️ 7.0/10
+18. [Simon Willison Highlights Essay on Coding Agents Eroding Programming Joy](#item-18) ⭐️ 7.0/10
+19. [FairStress: New Framework Stress-Tests LLM Fairness Under Distribution Shifts](#item-19) ⭐️ 7.0/10
+20. [IBM's ALTK-Evolve tops τ²-bench customer service tasks with learned memory, no frontier model](#item-20) ⭐️ 7.0/10
+21. [Anthropic's cloud partnerships strain as compute demand surges ahead of IPO](#item-21) ⭐️ 7.0/10
+22. [OpenAI acquires Orchestra Bio to boost life sciences AI](#item-22) ⭐️ 7.0/10
+23. [Google joins Amazon in challenging Nvidia's AI hardware dominance with PyTorch migration tool](#item-23) ⭐️ 7.0/10
+24. [Google Threat Intelligence Group Uncovers Ephemeral Supply Chain Tampering](#item-24) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Mistral launches Timestral, a 209M-parameter time-series foundation model](https://mistral.ai/news/timestral/) ⭐️ 8.0/10
+## [DeepSeek open-sources DeepInfer inference framework for V4.1-Flash](https://github.com/deepseek-ai/DeepInfer) ⭐️ 9.0/10
 
-Mistral announced Timestral, its first family of time-series foundation models, which delivers state-of-the-art probabilistic, multivariate forecasts with just 209 million parameters and supports both past and known-future covariates. This marks Mistral's entry into the time-series foundation model space, potentially simplifying forecasting for organizations managing thousands of series by offering a single pre-trained model instead of bespoke per-series models. Timestral is designed for zero-shot probabilistic forecasting and is available on Hugging Face and GitHub for standalone inference; however, its benchmark validity and real-world utility are being debated, with skeptics questioning whether it outperforms classical methods across diverse signal-to-noise regimes.
+DeepSeek released DeepInfer, an open-source high-performance inference framework that powers its production services for DeepSeek-V4.1-Flash, reporting over 25,000 decode tokens per second. The release includes support for NVIDIA SM100 and Huawei Ascend 950 hardware paths under an Apache-2.0 license. This release gives smaller labs and enterprises a production-grade inference stack for a leading open-weight model, potentially reducing reliance on proprietary APIs and challenging NVIDIA's dominance by supporting alternative hardware like Huawei Ascend. It also intensifies the debate over open-weight models amid US regulatory actions against DeepSeek. The open-source release focuses on offline inference and includes core features for serving at scale, but it omits some components such as KV cache, prefill/decode, and load-balancing pieces according to independent analysis. Benchmark caveats apply, and the throughput claims are for specific hardware configurations.
 
-hackernews · groar · Oct 19, 09:59 · [Discussion](https://news.ycombinator.com/item?id=50150434)
+hackernews · ggcr · Oct 20, 09:08 · [Discussion](https://news.ycombinator.com/item?id=50163277)
 
-**Background**: Time-series foundation models are pre-trained on large, diverse datasets to perform forecasting without domain-specific training, similar to how large language models generalize across tasks. They aim to replace traditional per-dataset approaches like ARIMA, Prophet, or LSTMs, but evaluating them fairly remains challenging due to potential data leakage and varying signal-to-noise ratios.
+**Background**: DeepInfer is the inference framework that DeepSeek uses internally to serve its large models efficiently. Inference frameworks optimize how models run in production, handling tasks like batching requests and managing memory to maximize throughput and minimize latency. DeepSeek's models are open-weight, meaning their parameters are publicly shared, which allows others to self-host them. The release comes as US agencies have reportedly moved to restrict DeepSeek, adding geopolitical significance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://mistral.ai/news/timestral/">Timestral : Mistral 's time - series foundation models | Mistral</a></li>
-<li><a href="https://huggingface.co/collections/mistralai/timestral">Time series foundation models for zero-shot probabilistic forecasting.</a></li>
-<li><a href="https://arxiv.org/html/2510.13654v1">Time Series Foundation Models: Benchmarking Challenges and ...</a></li>
+<li><a href="https://github.com/deepseek-ai/DeepInfer">GitHub - deepseek-ai/DeepInfer: DeepInfer: High-performance ...</a></li>
+<li><a href="https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/">DeepSeek Open-Sources DeepInfer, the Inference Framework ...</a></li>
+<li><a href="https://deepinfer.net/">DeepInfer: DeepSeek's V4.1-Flash Inference Framework</a></li>
 
 </ul>
 </details>
 
-**Discussion**: HN commenters debated the utility of foundational time-series models, with some arguing they are valuable for forecasting 10k series where per-series models lack sufficient history, while others questioned benchmark validity and shared skepticism about Mistral's claims based on disappointing experiences with other Mistral models.
+**Discussion**: Commenters highlighted the strategic timing of the release, with some suggesting it was a tactical response to a US DHS order and others viewing it as a blow to US frontier labs' valuations. Many praised the support for Huawei Ascend NPUs as a potential challenge to NVIDIA's dominance, while some celebrated China's open-source strategy.
 
-**Tags**: `#time-series`, `#foundation-models`, `#mistral`, `#forecasting`, `#machine-learning`
+**Tags**: `#inference`, `#DeepSeek`, `#open-weight models`, `#AI infrastructure`, `#geopolitics`
 
 ---
 
 <a id="item-2"></a>
-## [Engineers Grapple with Shipping AI-Written Code They Don't Fully Understand](https://news.ycombinator.com/item?id=50151036) ⭐️ 8.0/10
+## [Mistral Launches Voxtral 3 Speech-to-Text and Voice Agent SDK](https://mistral.ai/news/voxtral-3/) ⭐️ 8.0/10
 
-An Ask HN thread, sparked by a Meta engineer's LinkedIn post about feeling uncomfortable shipping AI-generated code that acts like a 'black box,' drew 225 points and 366 comments. Engineers shared strategies such as owning the design while letting LLMs implement details, acting as principal engineers over 'junior' AI implementers, and relying on extensive testing. This debate highlights a pressing industry-wide concern: as AI coding assistants become standard, engineers must redefine what it means to 'understand' code and how to maintain quality and accountability. The community-validated approaches could shape best practices for AI-assisted software development across teams. Commenters emphasized that testing becomes even more critical with LLMs—some run hours-long test gates on real programs—and noted that LLMs can surface issues in mature, 'perfect' code. Others pointed out that reviewing every line defeats the productivity gains, so the focus shifts to design-level oversight and trusting but verifying.
+Mistral announced Voxtral 3, which includes the Voxtral Small Transcribe 3 speech-to-text model and a new voice agent SDK for building real-time conversational agents across 50+ languages. The release also features a text-to-speech model, Voxtral TTS 3, with preset voices and zero-shot voice cloning. This release strengthens the open-weight speech-to-text ecosystem, offering an alternative to proprietary APIs and enabling offline, self-hosted transcription and voice agents. It could impact developers building real-time voice applications, especially those concerned with data privacy and cost. Voxtral Small Transcribe 3 claims state-of-the-art multilingual transcription with speaker diarization and context-biasing via keyphrases. The voice agent SDK combines listening, reasoning, tool calling, and speaking for live conversations over phone or web.
 
-hackernews · rzk · Oct 19, 11:24
+hackernews · ilreb · Oct 20, 16:02 · [Discussion](https://news.ycombinator.com/item?id=50168396)
 
-**Background**: Large language models (LLMs) for code generation produce source code from natural language descriptions and are increasingly integrated into IDEs and developer workflows. As these tools mature, engineers face the challenge of verifying AI-generated code, which may be correct but opaque, and ensuring they can maintain and debug systems they did not write line-by-line.
+**Background**: Speech-to-text (ASR) models convert spoken audio into text, and open-weight models like OpenAI's Whisper have become popular for self-hosted transcription. Voice agent SDKs are toolkits that help developers build conversational AI that can listen, reason, and respond in real time, often integrating with external systems. Mistral is a French AI company known for releasing open-weight language models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2406.00515">A Survey on Large Language Models for Code Generation A Survey on Large Language Models for Code Generation Code Generation with LLMs - web.stanford.edu LLMs for Code Generation: A summary of the research on ... Best LLM for Coding (October 2026): SWE-bench & LiveCodeBench ... GitHub - codefuse-ai/Awesome-Code-LLM: [TMLR] A curated list ... What is AI code generation? - IBM</a></li>
-<li><a href="https://docs.github.com/en/copilot/tutorials/review-ai-generated-code">Review AI-generated code - GitHub Docs</a></li>
-<li><a href="https://realpython.com/review-ai-generated-code/">How to Review AI-Generated Python Code Efficiently</a></li>
+<li><a href="https://mistral.ai/news/voxtral-3/">Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages</a></li>
+<li><a href="https://openrouter.ai/mistralai/voxtral-mini-tts-3-0">Voxtral TTS 3 - API Pricing & Providers | OpenRouter</a></li>
+<li><a href="https://presenc.ai/research/best-open-weight-speech-to-text-models-2026">Best Open - Weight Speech - to - Text Models 2026 | Presenc AI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agreed that engineers should retain design ownership and act as principal engineers over LLM 'junior' implementers, with heavy testing as a key safeguard. Some expressed comfort with trusting AI if it works and passes rigorous tests, while others stressed the need to verify rather than blindly trust, reflecting a spectrum from cautious oversight to pragmatic acceptance.
+**Discussion**: HN commenters discussed practical deployment: one developer shared commercial software using the previous Voxtral Mini 4B Realtime model for offline inference on commodity hardware, while another criticized poor transcription quality in Microsoft Teams and 8x8. Some expressed skepticism about unrealistic demos and questioned Mistral's commitment to open source.
 
-**Tags**: `#AI-assisted-coding`, `#software-engineering`, `#code-review`, `#LLM`, `#engineering-practices`
+**Tags**: `#speech-to-text`, `#voice-agents`, `#open-weight-models`, `#mistral`, `#real-time-inference`
 
 ---
 
 <a id="item-3"></a>
-## [Plex2Shell exploit chain actively exploited to deploy cryptominers](http://www.boredhackerblog.info/2026/10/plex-vulnerabilities-being-exploited-in.html) ⭐️ 8.0/10
+## [Google open-sources TorchTPU, a native PyTorch backend for TPUs](https://github.com/google-pytorch/torch_tpu) ⭐️ 8.0/10
 
-Attackers are actively exploiting a chain of four Plex Media Server vulnerabilities, collectively dubbed Plex2Shell, to deploy XMRig cryptominers and reverse proxy software on exposed servers. The public proof-of-concept exploit, reportedly assembled with the help of an LLM, enables unauthenticated remote code execution and has led to real-world victim reports. This highlights the risk of internet-exposed media servers and shows how LLMs can lower the barrier to chaining multiple CVEs into a working exploit. Plex users who have not patched recent updates are directly at risk of compromise, resource hijacking, and further malicious payloads. The exploit chain combines four CVEs to achieve unauthenticated remote code execution, and post-exploitation activity includes XMRig miners and proxy software. Victims have reported processes named "mylovelyminer" and "icloud-services" consuming 100% CPU, and some systems were running Plex versions over a year old.
+Google has open-sourced TorchTPU, a native PyTorch backend for its Tensor Processing Units (TPUs), providing first-party support for running PyTorch models directly on TPU hardware. The project was first reported in December and has now been officially confirmed and detailed by Google. This removes a major friction point for PyTorch users who want to leverage TPUs, potentially increasing TPU adoption and challenging NVIDIA's dominance in AI hardware. It also signals Google's commitment to the PyTorch ecosystem and could accelerate innovation in hardware backends for machine learning. TorchTPU follows an 'Eager First' philosophy and integrates with XLA, Google's open-source compiler for machine learning, to simplify model migration and unlock scalability. It is designed to run PyTorch natively on TPU infrastructure with peak efficiency.
 
-hackernews · mindracer · Oct 19, 13:36 · [Discussion](https://news.ycombinator.com/item?id=50152321)
+hackernews · ilreb · Oct 20, 16:40 · [Discussion](https://news.ycombinator.com/item?id=50169053)
 
-**Background**: Plex Media Server is a popular self-hosted application for streaming media, often exposed to the internet for remote access. A CVE is a publicly cataloged security vulnerability, and chaining multiple CVEs means combining separate flaws so that each step enables the next, ultimately allowing an attacker to run code without authentication. XMRig is a legitimate open-source Monero miner that attackers frequently abuse to hijack CPU resources for cryptocurrency mining.
+**Background**: PyTorch is a popular open-source machine learning framework, and TPUs are Google's custom-designed AI accelerators. Previously, running PyTorch on TPUs required workarounds or third-party tools, as TPUs were primarily optimized for Google's own TensorFlow and JAX frameworks. XLA is a compiler that optimizes computations for various hardware, including TPUs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html">Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and ...</a></li>
-<li><a href="https://shattered.io/plex2shell-exploit-xmrig-miner-2026/">Plex2Shell Exploit: 4 CVEs Hit Live Plex Servers [2026]</a></li>
-<li><a href="https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/">Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy ...</a></li>
+<li><a href="https://www.thestack.technology/google-torchtpu-pytorch-backend-tpu/">Google open-sources TorchTPU , a native PyTorch backend</a></li>
+<li><a href="https://developers.googleblog.com/torchtpu-running-pytorch-natively-on-tpus-at-google-scale/?ref=upstract.com">TorchTPU : Running PyTorch Natively on TPUs at Google Scale</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Accelerated_Linear_Algebra">Accelerated Linear Algebra - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters shared firsthand infections, including a home server running a 13-month-old Plex version and a Mac mini where a fake "icloud-services" process maxed out the CPU. Others noted additional payloads like DDoS nodes and linked the activity to the Plex2Shell PoC, while some mocked the low profitability of cryptomining in 2026 and criticized Plex's recent UI performance.
+**Discussion**: Commenters highlighted similar efforts by Amazon for AWS Trainium and an open-source libtpu implementation for Tenstorrent accelerators. Some noted that XLA may be a better compiler infrastructure than inductor, and others suggested this marks the final nail in TensorFlow's coffin, while also discussing the evolving JAX vs PyTorch dynamic.
 
-**Tags**: `#security`, `#vulnerabilities`, `#plex`, `#cryptominer`, `#exploit`
+**Tags**: `#PyTorch`, `#TPU`, `#XLA`, `#Machine Learning Infrastructure`, `#Open Source`
 
 ---
 
 <a id="item-4"></a>
-## [Inception Labs launches Mercury 3, a fast diffusion-based language model](https://www.inceptionlabs.ai/blog/introducing-mercury-3) ⭐️ 8.0/10
+## [eMudhra Intermediate CA Compromise Exposes Weak Keys and Revocation Gaps](https://emudhra.we-have-a-problem.com/) ⭐️ 8.0/10
 
-Inception Labs introduced Mercury 3 on October 19, 2026, describing it as the most capable diffusion-based large language model released to date, with launch pricing of $0.10 per million input tokens and $0.35 per million output tokens. The company claims it outperforms GPT-6 Luna and Claude Haiku 5.5 while running 4–8x faster at over 1,000 tokens per second. Mercury 3 demonstrates that diffusion-based language models can now compete with speed-optimized frontier models on quality while offering dramatically higher throughput and lower cost, potentially reshaping how latency-sensitive applications like coding assistants and real-time agents are built. Its release also puts pressure on major labs like Google, whose earlier Gemini Diffusion demo never became a widely available product. Inception claims sub-300ms time to first token, 5–7x higher throughput, and up to 70% lower cost per task compared to conventional LLMs, though early Hacker News users reported real-world speeds of around 300–400 tokens per second rather than the advertised 1,000+ tps. The diffusion framework also provides fine-grained control over outputs, but independent verification of the benchmark claims against GPT-6 Luna and Claude Haiku 5.5 is still limited.
+On October 20, 2026, it was disclosed that the private keys of eight eMudhra intermediate CA certificates had been compromised, with the keys reportedly being trivially weak—some as short as a single byte. Mozilla received the initial report on October 17 and quickly blocked the certificates for Firefox users via its OneCRL mechanism. This incident highlights a critical gap in the PKI ecosystem: while major browsers like Firefox, Chrome, Apple, and Microsoft have robust revocation infrastructure (e.g., OneCRL, CRLite) to protect their users, much of the broader ecosystem—including IoT devices and downstream trust stores—lacks similar protections. The weak keys could allow attackers to issue fraudulent HTTPS certificates for websites they do not control, potentially affecting a wide range of users and devices. According to eMudhra's explanation in the Mozilla bug report, a flaw in the KGC (Key Generation Center) script used on a specific day led to the creation of these weak ECC issuers, despite original ECC keys being created as expected and an approved deviation to their usual KGC process. The private keys were reportedly found on a public repository (repository.emsign.com), and one key was literally the single byte "4".
 
-hackernews · cmrdporcupine · Oct 19, 17:27 · [Discussion](https://news.ycombinator.com/item?id=50155245)
+hackernews · galadran · Oct 20, 13:58 · [Discussion](https://news.ycombinator.com/item?id=50166579)
 
-**Background**: Most large language models today are autoregressive, generating text one token at a time from left to right. Diffusion language models instead adapt the denoising approach used in image generation (such as Stable Diffusion) to text, starting from a corrupted or noisy version of the output and iteratively refining it, which allows many tokens to be produced in parallel. Inception Labs builds exclusively on this diffusion approach, aiming to trade the sequential bottleneck of autoregressive models for much faster and cheaper inference.
+**Background**: A certificate authority (CA) issues digital certificates that bind public keys to identities, enabling secure HTTPS connections. Intermediate CAs are subordinate CAs that chain to root CAs trusted by browsers and operating systems. If an intermediate CA's private key is compromised, attackers can issue fraudulent certificates that appear valid, undermining trust in the entire PKI system. Certificate revocation mechanisms, such as CRLs and browser-specific tools like OneCRL, are used to invalidate compromised certificates, but their effectiveness varies across the ecosystem.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.inceptionlabs.ai/blog/introducing-mercury-3">Diffusion at Scale: Introducing Mercury 3 – Inception</a></li>
-<li><a href="https://www.unite.ai/inception-releases-mercury-3-its-flagship-diffusion-llm/">Inception Releases Mercury 3, Its Flagship Diffusion LLM</a></li>
-<li><a href="https://outcomeschool.com/blog/how-do-diffusion-language-models-dlms-work">How do Diffusion Language Models (DLMs) work ?</a></li>
+<li><a href="https://emudhra.we-have-a-problem.com/">eMudhra Intermediate CA Compromise</a></li>
+<li><a href="https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/">Protecting Firefox users following the compromise of eMudhra ...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=50166579">EMudhra Intermediate CA Compromise | Hacker News</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Hacker News commenters were largely positive: one early tester reported getting 300–400 tokens per second after initial slowness and found the model capable at reasoning tasks, while another praised its ability to generate HTML renderers for UML diagrams from vague prompts. Simon Willison noted that Google's Gemini Diffusion demo from last year was cool and fast but went quiet, and another commenter appreciated that Inception focused on shipping real speed improvements rather than gimmicky UX features.
+**Discussion**: Commenters expressed shock and frustration that the private keys were single-byte values, with one noting that one key was literally "4". Mozilla's galadran highlighted the uneven impact, explaining that Firefox users were protected within hours thanks to OneCRL, but the rest of the ecosystem lacks similar investment in revocation infrastructure. Others discussed the root cause, pointing to a flawed KGC script and the keys being found on a public repository, raising concerns about widespread IoT vulnerabilities.
 
-**Tags**: `#diffusion models`, `#language models`, `#AI`, `#Mercury 3`, `#Hacker News`
+**Tags**: `#security`, `#PKI`, `#certificate-revocation`, `#TLS`, `#incident-response`
 
 ---
 
 <a id="item-5"></a>
-## [Single-Motor Drone Uses Special Hinge and Torque Modulation](https://www.youtube.com/watch?v=Ndftcft6XhU) ⭐️ 7.0/10
+## [Cloudflare's tsrs ports TypeScript to Rust for speed and WASM sandboxing](https://blog.cloudflare.com/typescript-rust-port/) ⭐️ 8.0/10
 
-A video by Joshua Bird demonstrates a drone that flies using only one motor, employing a special hinge design, a magnetic encoder, and torque modulation to control lift and direction. The design eliminates the need for a conventional swash plate, showcasing a novel approach to underactuated robotics. This project highlights how clever mechanical design and control algorithms can drastically simplify robotic systems, potentially leading to more efficient and cost-effective drones. It also sparks community interest in underactuated robotics and DIY innovation. The drone uses a magnetic encoder for precise rotor position feedback and modulates torque to vary lift as the rotor spins, completely negating the swash plate. However, the single motor causes the drone to spin in the air, and a two-motor design with a tail rotor might be more practical.
+Cloudflare is collaborating on tsrs, an experimental Rust port of the TypeScript compiler that is up to 8x faster and uses 70% less memory than TypeScript 7.0. The project, incubated within the Oxc toolchain, enables running TypeScript in a WASM-only sandbox and has received collaboration from the TypeScript team. This matters because it provides a high-performance TypeScript compiler that can run in restricted WASM sandboxes, which is crucial for Cloudflare's AI coding agents to check their work without exhausting resources. It also demonstrates a novel approach to porting GC-based languages to Rust, potentially influencing future compiler development. The port uses a unique memory model that fakes garbage collection via never-freed arenas for long-living objects, addressing Rust's lack of GC. Early benchmarks show significant performance gains, but the project is experimental and not a fork of TypeScript.
 
-hackernews · hakonjdjohnsen · Oct 19, 09:05 · [Discussion](https://news.ycombinator.com/item?id=50150089)
+hackernews · hnisjafx40 · Oct 20, 13:18 · [Discussion](https://news.ycombinator.com/item?id=50165953)
 
-**Background**: Underactuated robotics deals with systems that have fewer actuators than degrees of freedom, requiring control algorithms that exploit natural dynamics. Traditional drones use multiple motors for control, but this project shows how a single motor can suffice with innovative mechanisms like torque modulation, which is also studied in academic research for swashplateless single-rotor UAVs.
+**Background**: TypeScript is a superset of JavaScript that adds static typing and is compiled to JavaScript. The official compiler, tsc, is written in TypeScript and runs on Node.js. Porting it to Rust is challenging because Rust lacks a garbage collector, requiring a different memory management strategy. Cloudflare needed a TypeScript compiler that could run in a WASM sandbox for security and resource isolation, leading to the tsrs project.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Underactuation">Underactuation - Wikipedia</a></li>
-<li><a href="https://underactuated.mit.edu/intro.html">Ch. 1 - Fully-actuated vs Underactuated Systems</a></li>
-<li><a href="https://amu.hal.science/hal-04139662/document">Modelling, control and simulation of a single rotor UAV with...</a></li>
+<li><a href="https://blog.cloudflare.com/typescript-rust-port/">Introducing tsrs: a Port of TypeScript to Rust | Cloudflare Blog</a></li>
+<li><a href="https://thenewstack.io/cloudflare-rust-typescript-tsrs/">“We are not forking TypeScript”: Cloudflare spearheads Rust ...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=50165953">Tsrs: A Port of TypeScript to Rust | Hacker News</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters praised the video as an inspiring hacker project, with some drawing parallels to single-motor BattleBots designs and noting the simplicity of the rotor hinge. Others pointed out the impracticality of the drone spinning in the air and suggested a two-motor tail rotor design would be more feasible, while also mentioning other single-motor projects like the Picocolissimo.
+**Discussion**: The discussion is positive and insightful. A TypeScript team member confirmed collaboration and noted that speed gains come from optimizations beyond language choice. Others highlighted the novel memory model and the real motivation: running TypeScript in a WASM sandbox. Some expressed concern about the port being largely AI-generated.
 
-**Tags**: `#robotics`, `#underactuated`, `#drone`, `#mechanical-design`, `#hackernews`
+**Tags**: `#TypeScript`, `#Rust`, `#compiler`, `#WASM`, `#performance`
 
 ---
 
 <a id="item-6"></a>
-## [Wine ported to OpenBSD, runs modern Windows games](https://marc.info/?l=openbsd-ports&m=179236125692175) ⭐️ 7.0/10
+## [Google Cloud europe-west2 outage disrupts European banks](https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/) ⭐️ 8.0/10
 
-Wine, the compatibility layer for running Windows applications on Unix-like systems, has been ported to OpenBSD. The porter adopted a deliberately OpenBSD-specific approach, marking all changes as OpenBSD-only, which may limit how much of the work can be merged upstream. This is a notable technical achievement for OpenBSD, a niche but security-focused operating system, as it significantly expands the software available to its users, including modern Windows games. It also highlights the growing relevance of OpenBSD as a desktop alternative and sparks discussion about the challenges of maintaining downstream ports. The port uses OpenBSD-specific implementations such as %gs stubs and SIGUSR1 handling that differ from Linux, and the porter chose to isolate these changes to simplify development. A major open question is whether 32-bit Wine will be supported, since it would require adding a complete 32-bit userspace to OpenBSD, which is a significant effort.
+A power event in Google Cloud's europe-west2-b availability zone (London region) caused an outage that disrupted services for HSBC, Revolut, Bank of Scotland, Lloyds, Equifax, and others across Europe. Google's status page confirmed the issue began on Monday, 2026-10-19 23:08 PDT and said partial mitigation would occur within 30 minutes. This outage highlights the concentration risk of relying on a single cloud provider for critical financial infrastructure, as a localized power event cascaded into widespread banking disruptions. It raises questions about resilience and regulatory oversight of cloud dependencies in the financial sector. The outage affected only one of three availability zones in the London region, yet it disrupted multiple services; Google's status page provided updates but no immediate root cause beyond the power event. Some users reported that services like HSBC remained operational, suggesting uneven impact.
 
-hackernews · iamnothere · Oct 19, 13:35 · [Discussion](https://news.ycombinator.com/item?id=50152307)
+hackernews · paweladamczuk · Oct 20, 10:26 · [Discussion](https://news.ycombinator.com/item?id=50163961)
 
-**Background**: Wine is a free and open-source compatibility layer that allows Windows applications and games to run on Unix-like operating systems such as Linux, macOS, and FreeBSD, without emulation or virtualization. It works by translating Windows system calls into native system calls, primarily developed through black-box testing and reverse engineering. OpenBSD is a security-focused Unix-like operating system known for its emphasis on code correctness and proactive security measures.
+**Background**: Google Cloud organizes its infrastructure into regions and availability zones to provide redundancy; europe-west2 is the London region. A power event in one zone can still cause outages if services are not fully replicated across zones. Cloud concentration risk refers to the danger of many critical services depending on a single provider, which can magnify the impact of an outage.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Wine_compatibility_layer">Wine compatibility layer</a></li>
-<li><a href="https://en.wikipedia.org/wiki/OpenBSD">OpenBSD - Wikipedia</a></li>
-<li><a href="https://www.osnews.com/story/146195/wine-ported-to-openbsd-runs-modern-windows-games/">Wine ported to OpenBSD , runs modern Windows games – OSnews</a></li>
+<li><a href="https://www.theregister.com/paas-and-iaas/2026/10/20/google-clouds-london-zones-takes-a-nap-multiple-services-disrupted/5304084">Google Cloud 's London zones takes a nap, multiple services disrupted</a></li>
+<li><a href="https://www.bbc.com/news/articles/cxdd8mm6qy4mo">Google says services recovering after cloud outage hits UK banks and...</a></li>
+<li><a href="https://www.de-cix.net/en/resources/mitigating-cloud-concentration-risk">Mitigating cloud concentration risk</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Hacker News discussion (484 points, 162 comments) shows strong interest, with users sharing gameplay videos of Windows games running via Wine on OpenBSD. Some commenters note the porter's surname, Frohwein, means "happy wine" in German, and others joke about naming the port "Port." A linked mailing list post reveals the porter's rationale for OpenBSD-only changes and doubts about upstream merging.
+**Discussion**: Commenters shared mixed experiences: some reported complete outages (e.g., Revolut users unable to access accounts or make payments), while others noted their banks (like HSBC) were unaffected. There was skepticism about Downdetector as a reliable source, and some argued for European alternatives to US cloud providers to reduce dependency.
 
-**Tags**: `#OpenBSD`, `#Wine`, `#porting`, `#open-source`, `#operating-systems`
+**Tags**: `#cloud-outage`, `#google-cloud`, `#reliability`, `#banking`, `#infrastructure`
 
 ---
 
 <a id="item-7"></a>
-## [Mac.apk runs Android apps natively on Apple Silicon Macs](https://github.com/kksimp/Mac.apk) ⭐️ 7.0/10
+## [Fake Statistics Can Get Your Content Cited by LLMs](https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web) ⭐️ 8.0/10
 
-A GitHub project called Mac.apk demonstrates running Android apps natively on Apple Silicon Macs without an emulator, virtual machine, or Linux layer. Apps launch as ordinary macOS processes, use the Mac's GPU for rendering, and execute on the CPU at native speed. This approach could offer a lighter, faster alternative to traditional Android emulators on Mac, potentially benefiting users who want to run Android-only apps like Minecraft Bedrock. However, reliance on Google Play Services and other walled-garden dependencies may limit its practical usefulness. Because apps run as native macOS processes with the user's permissions, there is no phone-style app sandbox, meaning apps can read and write files like any Mac app. The project also lacks Google Play Services, which many Android apps depend on.
+A blog post on peec.ai demonstrates that publishing fabricated statistics can lead to those statistics being cited by large language models, effectively poisoning the data that LLMs rely on. The article describes a tactic where an author creates fake stats and then observes them being picked up and repeated by LLMs across the web. This highlights a significant vulnerability in LLM training and retrieval pipelines: malicious or opportunistic actors can manipulate what AI models present as fact, undermining trust in AI-generated information. As LLMs become primary interfaces for information retrieval, the lack of robust verification mechanisms poses risks for users and for the broader web ecosystem. The tactic exploits the tendency of LLMs to treat any website without a clearly bad reputation as a valid third-party source, and it is an incremental variant of long-known citation manipulation techniques like citogenesis. The HN discussion (313 points, 179 comments) underscores that this problem predates LLMs but has been accelerated and scaled by them.
 
-hackernews · flocked · Oct 19, 16:45 · [Discussion](https://news.ycombinator.com/item?id=50154624)
+hackernews · robtherobber · Oct 20, 13:06 · [Discussion](https://news.ycombinator.com/item?id=50165801)
 
-**Background**: Android apps normally run on a specialized runtime (ART) within the Android OS, which is why running them on other platforms typically requires an emulator or virtual machine. Mac.apk reimplements the Android application environment directly on top of macOS, allowing apps to run as native processes. This is similar in spirit to projects like WSL (Windows Subsystem for Linux) but for Android on macOS.
+**Background**: Data poisoning refers to the deliberate injection of manipulated data into a model's training set or retrieval corpus to influence its outputs. Citogenesis, a term coined on Wikipedia, describes circular reporting where false information is introduced and then cited by other sources, creating an illusion of reliability. LLMs often scrape web content for training and retrieval, making them susceptible to such manipulation, and there is currently no widely adopted trust or verification layer for AI-consumed web content.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/kksimp/Mac.apk">Android apps running native on macOS - GitHub</a></li>
-<li><a href="https://daily.dev/posts/android-apps-running-native-on-macos-gcspqvspy">Android apps running native on macOS - daily.dev</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Citogenesis">Citogenesis</a></li>
+<li><a href="https://safeguard.sh/resources/blog/data-poisoning-attacks-against-llms">LLM Data Poisoning Attacks: How They Work & Defense</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters found the project technically impressive but noted that Google Play Services dependencies will limit real-world usefulness. Some highlighted a practical use case: running Minecraft Bedrock Edition on Mac to play with console and mobile players. Others remarked on the recognizable AI-generated code style and speculated about future AI-assisted porting projects.
+**Discussion**: Commenters expressed concern and cynicism, noting that the problem is not new (citing citogenesis on Wikipedia) but is now more dangerous because LLMs lack robust source evaluation. Some pointed out the perverse incentives for cheating and the absence of a 'Google for LLMs' that could assess credibility, while others highlighted that LLMs already use low-quality sources like Reddit and Facebook.
 
-**Tags**: `#Android`, `#macOS`, `#Apple Silicon`, `#native execution`, `#emulation alternative`
+**Tags**: `#LLM data poisoning`, `#AI trust and verification`, `#citogenesis`, `#web content manipulation`, `#information retrieval`
 
 ---
 
 <a id="item-8"></a>
-## [IEEE Spectrum reports on the rise of animal-testing alternatives](https://spectrum.ieee.org/alternatives-to-animal-testing) ⭐️ 7.0/10
+## [NVIDIA Cosmos3-H-Dreams: Real-Time Generative Simulator for Surgery](https://huggingface.co/blog/nvidia/cosmos3-h-dreams) ⭐️ 8.0/10
 
-IEEE Spectrum published an article highlighting the growing adoption of animal-testing alternatives such as organ-on-chip devices and organoid models, which are increasingly used in drug development and safety testing. The article notes that these technologies are gaining traction as more predictive and ethical alternatives to traditional animal experiments. This shift could significantly reduce animal suffering and improve the reliability of preclinical testing, as human-cell-based models may better predict human responses than animal models. It also aligns with regulatory changes, such as the FDA's recent rule clarifying that non-animal methods can be used for drug safety testing, potentially accelerating drug development timelines. Organ-on-chip devices replicate organ structure and function on miniaturized biochips, while organoids are 3D cell cultures derived from stem cells that mimic organ tissues. However, challenges remain, such as the reliance on Matrigel—a matrix derived from mouse tumors—for growing organoids, which indirectly involves animal use.
+NVIDIA has introduced Cosmos3-H-Dreams, a generative world model that simulates clinical surgery in real time by generating future surgical video from an initial scene and a sequence of robot actions. It is positioned as the first real-time, action-conditioned generative simulator purpose-built for surgical robotics. This enables faster-than-physical evaluation of surgical robot policies, synthetic data generation, and rehearsal of surgical gestures, potentially accelerating development and training in surgical robotics. It also raises important questions about clinical reliability and regulatory implications under frameworks like the EU AI Act. The model is open-sourced and part of the Open-H-Embodiment ecosystem, with a related Cosmos 3 Super model featuring a 32B-class omni-model (32B reasoner + 32B generator) for large-scale synthetic data generation. However, its clinical reliability and performance metrics remain unverified, and regulatory implications under the EU AI Act are still being assessed.
 
-hackernews · rbanffy · Oct 19, 11:10 · [Discussion](https://news.ycombinator.com/item?id=50150927)
+rss · Hugging Face Blog · Oct 20, 18:17
 
-**Background**: Animal testing has long been a standard for assessing drug safety and efficacy, but it raises ethical concerns and often fails to predict human outcomes due to species differences. Organ-on-chip technology and organoid models are emerging alternatives that use human cells to recreate organ-level physiology in vitro, offering more human-relevant data. Regulatory bodies like the FDA are beginning to accept these non-animal methods, signaling a broader shift in biomedical research.
+**Background**: Generative world models learn to predict future states of an environment, enabling simulation without explicit physics engines. In surgical robotics, such simulators can generate realistic surgical video conditioned on robot actions, providing a safe and scalable way to train and test policies. NVIDIA's Cosmos family is a series of foundation models for physical AI, and Cosmos3-H-Dreams specializes this approach for clinical surgery.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.fda.gov/news-events/press-announcements/fda-updates-regulations-advance-innovative-alternatives-animal-testing">FDA Updates Regulations to Advance Innovative Alternatives to ...</a></li>
-<li><a href="https://dynamic42.com/organ-on-chip-technology/">What is organ - on - chip technology ?</a></li>
-<li><a href="https://www.corning.com/in/en/products/life-sciences/applications/cell-culture/3D-cell-culture/organoid-models.html">3D Organoid Models | 3D Organoid Culture | Corning</a></li>
+<li><a href="https://huggingface.co/nvidia">Org profile for NVIDIA on Hugging Face, the AI community building the...</a></li>
+<li><a href="https://www.textpad.cloud/b/huggingface/nvidia-cosmos-h-dreams-bringing-real-time-generative-simulat">NVIDIA Cosmos - H - Dreams : Bringing Real-Time Generative ... | Textpad</a></li>
+<li><a href="https://www.ai-jarvis.eu/nvidia-cosmos-h-dreams-brings-real-time-generative-simulation-surgical-robotics">NVIDIA Cosmos-H-Dreams Brings Real-Time Generative Simulation ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters generally welcomed the shift away from animal testing, but raised practical caveats: one noted that organoids are often grown in Matrigel derived from mouse tumors, another invoked Jevons paradox to suggest that cheaper testing might increase overall animal use, and a third highlighted DeepMind's virtual cell research as a promising direction.
-
-**Tags**: `#biotech`, `#animal-testing`, `#organoids`, `#research-ethics`, `#science-policy`
+**Tags**: `#generative AI`, `#medical simulation`, `#surgery`, `#NVIDIA`, `#healthcare`
 
 ---
 
 <a id="item-9"></a>
-## [PostgreSQL Reverts LLM-Assisted Changes to Preserve Community Trust](http://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves) ⭐️ 7.0/10
+## [Anthropic pitches AI safety bill with judicial approval loophole](https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/) ⭐️ 8.0/10
 
-A blog post by Peter Eisentraut explains that the PostgreSQL project chose to revert changes developed with LLM assistance in order to keep its community invested and engaged. The post, titled 'The reverts will continue until morale improves,' sparked a substantive Hacker News discussion (178 points, 30 comments) about LLM integration in open-source workflows. This case highlights a growing tension in open-source projects between the productivity gains of LLM-assisted development and the need to maintain community trust, code quality, and contributor engagement. It offers a concrete governance precedent for other projects deciding how to integrate AI-generated code without alienating long-time contributors. The post notes that several '80%-ready' features are queued for PostgreSQL 20 and still need the remaining 80% of work, a wry acknowledgment of how LLM-generated code can look complete while lacking critical finishing touches. The discussion also touched on feature freezes, automated code review, and the risk of adversaries using abliterated LLMs to hunt for vulnerabilities.
+Anthropic has proposed a federal AI safety bill that would block models deemed capable of killing 50 or more people, but the draft actually requires federal agencies to obtain judicial approval before halting a model's release. The proposal could set a precedent for how AI risks are regulated at the federal level, but its judicial-approval requirement may weaken oversight and delay emergency interventions, affecting regulators, developers, and the public. The bill ties government intervention to specific catastrophic threats and mandates judicial approval for suspensions, which critics argue could make it harder for agencies to act quickly against dangerous models.
 
-hackernews · hans_castorp · Oct 19, 18:42 · [Discussion](https://news.ycombinator.com/item?id=50156206)
+rss · TechCrunch · Oct 20, 23:01
 
-**Background**: LLM-assisted development, sometimes called 'vibe coding,' is the practice of having a large language model generate source code from natural-language descriptions. Open-source projects are increasingly experimenting with LLMs for code generation and review, but maintainers must weigh speed against review burden, licensing concerns, and community norms. Reverting a commit—undoing a change while preserving history—is a standard Git operation and a common way to respond to problematic contributions.
+**Background**: Anthropic is an AI safety and research company known for its Claude models and its focus on responsible AI development. The draft bill, obtained by POLITICO, comes amid broader debates over AI regulation, including calls for coordinated safety standards and global agreements on high-risk AI uses.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
-<li><a href="https://www.geeksforgeeks.org/git/overturning-changes-in-git/">Reverting a Git Commit - GeeksforGeeks</a></li>
-<li><a href="https://deepwiki.com/fit2cloud/LLM-CodeReview-Action">fit2cloud/ LLM - CodeReview -Action | DeepWiki</a></li>
+<li><a href="https://interestingengineering.com/ai-robotics/anthropic-confidential-congress-draft-bill">Anthropic's confidential bill limits federal power to halt models</a></li>
+<li><a href="https://www.anthropic.com/careers">Careers \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely supported the revert, with one developer calling it better to revert than lose an invested community and congratulating the team for listening. Others shared that LLMs are good at surfacing edge cases but can be dispiriting when they expose flaws in one's own code, and one suggested it may be time for many projects to declare a feature freeze and focus on testing and automated review.
-
-**Tags**: `#postgresql`, `#open-source`, `#llm`, `#code-review`, `#community-management`
+**Tags**: `#AI safety`, `#AI regulation`, `#policy`, `#Anthropic`, `#AI governance`
 
 ---
 
 <a id="item-10"></a>
-## [Let's Encrypt adds two more remote perspectives for domain validation](https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166) ⭐️ 7.0/10
+## [Go Releases Emergency Update to Block Eight CA Keys](https://www.reddit.com/r/programming/comments/1xarfxg/go_issues_emergency_update_blocking_eight_ca_keys/) ⭐️ 8.0/10
 
-Let's Encrypt is expanding its multi-perspective domain validation by adding two additional remote perspectives, increasing the total number of validation requests from five to seven (one from the primary datacenter and six from remote locations). This change hardens ACME domain validation against network-level attacks such as BGP hijacking, making it harder for attackers to fraudulently obtain certificates for domains they do not control. It affects anyone operating TLS infrastructure and relying on Let's Encrypt for certificate issuance. With the addition, Let's Encrypt will perform seven total validation requests: one from the primary datacenter and six from remote perspectives, up from the previous four remote perspectives. This multi-perspective approach requires that the domain validation response be observable from multiple distinct network locations.
+On October 20, the Go team released Go 1.27.3 and Go 1.26.10, which include a fix for CVE-2026-111943 that blocks eight intermediate CA keys belonging to an unnamed certificate authority due to undisclosed security concerns. This emergency update affects all Go programs that rely on the crypto/x509 package for certificate verification, potentially disrupting TLS connections to services using certificates chained to these keys and highlighting the importance of timely security patches in the Go ecosystem. The update addresses a single security fix in the crypto/x509 package, tracked as CVE-2026-111943 and Go issue 82345, and the Go team urges users to upgrade immediately; the Go project does not assign CVSS scores, stating severity depends on API usage.
 
-hackernews · gslin · Oct 19, 10:53 · [Discussion](https://news.ycombinator.com/item?id=50150809)
+reddit · r/programming · /u/359Panda3U · Oct 20, 12:58
 
-**Background**: Let's Encrypt is a free, automated certificate authority that issues TLS certificates via the ACME protocol. Domain validation typically involves the CA making an HTTP request to a specific path on the domain or querying a DNS record to prove control. Multi-perspective validation (MPDV) improves security by performing these checks from multiple network vantage points, reducing the risk of attacks that exploit routing anomalies like BGP hijacking.
+**Background**: Go's crypto/x509 package implements X.509 certificate parsing and verification, which is essential for secure TLS connections. Certificate authorities (CAs) issue digital certificates that bind public keys to entities, and intermediate CA keys are used to sign end-entity certificates. When a CA is distrusted, any certificate chained to its keys will fail verification, which can break existing connections.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166">Let ' s Encrypt is adding two additional remote perspectives for...</a></li>
-<li><a href="https://community.letsencrypt.org/t/multi-perspective-validation-geoblocking-faq/218158">Multi - Perspective Validation & Geoblocking FAQ - Issuance Tech...</a></li>
-<li><a href="https://devsdaily.com/bgp-hijacking-https-certificate-validation/">BGP Hijacking Explained: How HTTPS Validation Can Be Attacked</a></li>
+<li><a href="https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html">Go Issues Emergency Update Blocking Eight CA Keys Over...</a></li>
+<li><a href="https://www.cyberkendra.com/2026/10/go-blocks-compromised-emudhra-ca-keys-in-emergency-update.html">Go Blocks Compromised eMudhra CA Keys in Emergency Update</a></li>
+<li><a href="https://pulse.adyog.com/insights/go-blocks-eight-ca-keys-cve-2026-111943">Go 1.27.3 and 1.26.10 block eight CA keys (CVE-2026-111943)</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters clarified that 'remote perspectives' means performing ACME challenge checks from multiple physical locations to thwart network-level attacks. One noted that multi-perspective validation was defeated in a real-world BGP hijack in August, highlighting its limits. Others lamented the lack of widespread S/MIME adoption and suggested a Let's Encrypt-like CA for email certificates, while one asked about C2PA certificate support.
-
-**Tags**: `#TLS`, `#Let's Encrypt`, `#PKI`, `#security`, `#BGP`
+**Tags**: `#Go`, `#security`, `#certificates`, `#CA`, `#programming`
 
 ---
 
 <a id="item-11"></a>
-## [Hugging Face launches TorchNeuron to simplify running models on AWS Trainium](https://huggingface.co/blog/hf-torchneuron) ⭐️ 7.0/10
+## [Ofcom Concedes Defeat in 4chan Case](https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/) ⭐️ 7.0/10
 
-Hugging Face introduced TorchNeuron, a new library that makes it easier to run Hugging Face models on AWS Trainium accelerators. The library aims to lower the barrier for developers to deploy models on Amazon's custom AI chips. This matters because AWS Trainium offers a cost-effective alternative to GPUs for training and inference, and TorchNeuron reduces the complexity of using these accelerators. It could encourage more organizations to adopt Trainium for their machine learning workloads, especially those already using Hugging Face models. TorchNeuron builds on the Neuron SDK and integrates with PyTorch, allowing models to be compiled and run on Trainium instances. It supports custom operators and is designed to work with existing Hugging Face workflows, though users may need to adjust for specific model architectures.
+Ofcom has reportedly conceded defeat in its legal case against 4chan, following a US court's dismissal of 4chan and Kiwi Farms' lawsuit against the regulator in September 2026. The concession marks a significant turn in the UK regulator's attempt to enforce the Online Safety Act against a US-based forum. This development highlights the limits of cross-border enforcement of online regulations, particularly when targeting foreign platforms that do not have a physical presence in the regulating country. It raises questions about the effectiveness of the UK's Online Safety Act and could embolden other foreign services to resist similar regulatory demands. The case stems from Ofcom's £520,000 fine on 4chan in March 2026 for failing to comply with the Online Safety Act, including a £450,000 penalty for specific violations. 4chan and Kiwi Farms had filed a lawsuit in a Washington DC court in August 2025, which was dismissed in September 2026 for lack of jurisdiction.
 
-rss · Hugging Face Blog · Oct 19, 00:00
+hackernews · iamnothere · Oct 20, 14:30 · [Discussion](https://news.ycombinator.com/item?id=50167028)
 
-**Background**: AWS Trainium is a family of custom AI accelerator chips developed by Amazon Web Services for high-performance, cost-efficient training and inference of generative AI models, including large language models. Hugging Face is a popular platform for sharing and using pre-trained models. Previously, running Hugging Face models on Trainium required using the AWS Neuron SDK, which could be complex. TorchNeuron aims to simplify this process by providing a more streamlined interface.
+**Background**: The UK's Online Safety Act 2023 grants Ofcom powers to regulate online content, including services provided from outside the UK, with the aim of improving online safety. Ofcom has been actively enforcing the act, issuing fines to non-compliant platforms. 4chan, a controversial anonymous imageboard, has resisted these efforts, arguing that the UK regulator lacks jurisdiction over US-based services.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://aws.amazon.com/blogs/machine-learning/how-to-extend-the-functionality-of-aws-trainium-with-custom-operators/">How to extend the functionality of AWS Trainium with custom operators</a></li>
-<li><a href="https://huggingface.co/aws-neuron">aws -neuron ( AWS Inferentia and Trainium )</a></li>
+<li><a href="https://www.bbc.com/news/articles/c624330lg1ko">4Chan responds to £520,000 Ofcom fine with AI picture of hamster</a></li>
+<li><a href="https://www.bbc.co.uk/news/articles/clyjq40vjl7o">4chan launches legal case against Ofcom in US federal court</a></li>
+<li><a href="https://www.reuters.com/legal/government/us-court-dismisses-4chans-case-against-britains-media-regulator-2026-09-16/">US court dismisses 4chan's case against Britain's media ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AWS Trainium`, `#Hugging Face`, `#ML Infrastructure`, `#Model Deployment`, `#AI Accelerators`
+**Discussion**: Commenters expressed skepticism about the effectiveness of cross-border enforcement, noting that without physical presence or assets in the UK, such actions are largely symbolic. Some criticized the UK civil service's competence, while others warned that the case could set a precedent for broader internet censorship measures like deep packet inspection.
+
+**Tags**: `#regulation`, `#free-speech`, `#jurisdiction`, `#ofcom`, `#4chan`
 
 ---
 
 <a id="item-12"></a>
-## [Amazon develops TorchNeuron to break Nvidia's PyTorch lock-in](https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/) ⭐️ 7.0/10
+## [Deep Sea Life Near Deepwater Horizon Site Shows Little Recovery 16 Years After Spill](https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery) ⭐️ 7.0/10
 
-Amazon is developing a new developer tool called TorchNeuron that aims to break Nvidia's hold on PyTorch by enabling AI applications to run on alternative chips, including Amazon's own custom silicon. The tool is positioned as Amazon's biggest shot yet at reducing Nvidia's dominance in AI infrastructure. If adopted, TorchNeuron could give developers a practical path to run PyTorch workloads on non-Nvidia hardware, potentially reducing costs and supply constraints tied to Nvidia GPUs. This matters for cloud providers, AI startups, and enterprises seeking leverage over AI infrastructure spending. TorchNeuron builds on Amazon's existing PyTorch-Neuron compilation API, which compiles model graphs to run on Amazon Inferentia devices, and upstream changes have been proposed to the PyTorch repository. The tool's success will depend on how seamlessly it supports existing PyTorch code with minimal rewrites and on the maturity of Amazon's Trainium and Inferentia chip ecosystem.
+Yale E360 reports that deep-sea ecosystems near the Deepwater Horizon spill site show few signs of recovery 16 years after the 2010 disaster, according to new research. The finding underscores the long-lasting environmental damage of deep-sea oil spills and raises questions about the effectiveness of cleanup methods like dispersants, with implications for future offshore drilling and regulation. The report notes that researchers stopped short of directly attributing the lack of recovery to the spill, and the HN discussion highlights that dispersants like Corexit were used in unprecedented quantities to sink oil to the seafloor.
 
-rss · TechCrunch · Oct 19, 20:09
+hackernews · speckx · Oct 20, 15:59 · [Discussion](https://news.ycombinator.com/item?id=50168357)
 
-**Background**: PyTorch is a widely used open-source machine learning framework, and Nvidia's CUDA software stack has historically made it easiest to run PyTorch on Nvidia GPUs, creating a sticky ecosystem. Amazon has been developing custom AI chips such as Trainium for training and Inferentia for inference, and its Project Rainier cluster deploys hundreds of thousands of Trainium2 chips. TorchNeuron is part of a broader industry effort, similar to Google's TorchTPU work, to erode Nvidia's software advantage by making PyTorch portable across alternative accelerators.
+**Background**: The Deepwater Horizon oil spill began on April 20, 2010, when the BP-operated rig exploded, releasing an estimated 4.9 million barrels of oil into the Gulf of Mexico over 87 days. It is considered the largest marine oil spill in history, surpassing the 1979 Ixtoc I spill. Dispersants such as Corexit were applied to break up the oil, but critics argue they merely sank it to the seabed, harming deep-sea ecosystems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.amazonaws.cn/en_us/dlami/latest/devguide/tutorial-inferentia-pytorch-neuron.html">Using PyTorch- Neuron and the Amazon Neuron Compiler - Amazon ...</a></li>
-<li><a href="https://github.com/pytorch/pytorch/pull/193427">[Draft] Amazon Torch Neuron upstream changes by AbigailFernandes...</a></li>
-<li><a href="https://introl.com/blog/aws-trainium-inferentia-silicon-ecosystem-guide-2025">Amazon Trainium and Inferentia | Introl Blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill">Deepwater Horizon oil spill - Wikipedia</a></li>
+<li><a href="https://www.britannica.com/event/Deepwater-Horizon-oil-spill">Deepwater Horizon oil spill | Summary, Effects, Cause... | Britannica</a></li>
+<li><a href="https://response.restoration.noaa.gov/about/media/what-have-we-learned-about-using-dispersants-during-next-big-oil-spill.html">What Have We Learned About Using Dispersants During the Next Big...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI infrastructure`, `#PyTorch`, `#Nvidia`, `#Amazon`, `#hardware`
+**Discussion**: HN commenters expressed frustration over the lack of accountability and criticized the use of dispersants as a public relations move that hid the oil rather than solving the problem. Some drew parallels to the 1979 Ixtoc I spill and noted that while nuclear power was set back by Chernobyl, offshore drilling has continued largely unabated.
+
+**Tags**: `#environment`, `#marine-science`, `#oil-spill`, `#ecosystem-recovery`, `#hackernews-discussion`
 
 ---
 
 <a id="item-13"></a>
-## [Hackers Breach OpenCode, Steal API Keys and Run Up AI Charges](https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/) ⭐️ 7.0/10
+## [Researcher Removes 300 Malicious Tor Exit Nodes](https://kaba.cx/posts/20261020_Tor/) ⭐️ 7.0/10
 
-Hackers breached part of OpenCode's online platform, stole some users' API keys, and used them to run up charges on the victims' AI accounts. Notably, the AI tools the attackers consulted for help repeatedly refused to inspect the malicious code. OpenCode is a popular open-source alternative to Claude Code and Cursor, so this incident highlights the security risks of storing API keys in AI coding platforms and could push developers to adopt stricter key management and rotation practices. It also raises questions about how AI assistants handle requests to analyze malicious code. The breach affected only part of OpenCode's online platform, and the stolen API keys were used to incur charges on users' AI accounts. The detail that AI assistants refused to examine the malicious code suggests safety guardrails may have inadvertently hindered incident analysis.
+A security researcher documented how they used the exitmap scanner and other tools to detect and successfully get over 300 malicious Tor exit nodes removed from the network. This work highlights the ongoing threat of malicious exit nodes that can intercept or manipulate Tor users' traffic, and demonstrates that community-driven monitoring can effectively clean up the network and protect users' privacy. The attack was detected quickly because SSH connections printed a large banner during man-in-the-middle attempts, allowing admins to trace infected nodes; the author notes that if attackers had targeted email instead, they might have remained undetected longer.
 
-rss · TechCrunch · Oct 19, 19:28
+hackernews · kabakabakaba · Oct 20, 13:39 · [Discussion](https://news.ycombinator.com/item?id=50166257)
 
-**Background**: OpenCode is an open-source AI coding agent available as a terminal-based interface, desktop app, or web app, and it has become a popular alternative to proprietary tools like Claude Code and Cursor. API keys are credentials that grant access to paid AI model services, so if stolen, they can be abused to consume a victim's quota and incur costs. Best practices for API key security include secure storage, regular rotation, monitoring usage, and revoking compromised keys promptly.
+**Background**: Tor is an anonymity network that routes traffic through volunteer-operated relays, with exit nodes being the final relay that sends traffic to the public internet. Malicious exit node operators can perform man-in-the-middle attacks to steal credentials or inject content. Exitmap is a fast, modular Python-based scanner developed over ten years ago to scan Tor exit relays for malicious behavior.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/opencode-ai/opencode">GitHub - opencode - ai / opencode : A powerful AI coding agent .</a></li>
-<li><a href="https://opencode.ai/v2/docs">Intro | OpenCode</a></li>
-<li><a href="https://docs.cloud.google.com/docs/authentication/api-keys-best-practices">Best practices for managing API keys | Authentication ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tor_exit_node">Tor exit node</a></li>
+<li><a href="https://gitlab.torproject.org/Corl3ss/exitmap">Exitmap is a fast and modular Python-based scanner for Tor exit relays.</a></li>
+<li><a href="https://support.torproject.org/about-tor/">About Tor — Tor</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#AI coding agents`, `#API keys`, `#open source`, `#incident response`
+**Discussion**: Commenters praised the write-up, with exitmap's original author expressing gladness that the tool is still useful. Some criticized the attack as poorly conceived because SSH banners made detection easy, while others noted that the number of exit nodes (around 3000) is surprisingly small and discussed broader issues like guard node attacks and IP blacklisting.
+
+**Tags**: `#Tor`, `#security`, `#privacy`, `#network-security`, `#exit-nodes`
 
 ---
 
 <a id="item-14"></a>
-## [Tenstorrent raises $1.5B at $6.2B valuation to stay independent](https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/) ⭐️ 7.0/10
+## [MicroG: Open-Source Reimplementation of Google Play Services for De-Googled Android](https://github.com/microg/GmsCore/wiki) ⭐️ 7.0/10
 
-Tenstorrent, the Nvidia challenger led by legendary chip architect Jim Keller, raised $1.5 billion at a $6.2 billion valuation after drawing acquisition interest earlier this year, opting to remain independent and scale its open-weight AI chip business. The raise signals strong investor confidence in alternatives to Nvidia's CUDA-dominated AI accelerator market, and Tenstorrent's independence keeps an open, RISC-V-based hardware option alive for customers seeking to avoid single-vendor lock-in. Tenstorrent's chips pair a RISC-V CPU with its Tensix AI core architecture, and its Galaxy Blackhole systems are priced from around $110,000 for 32 chips delivering 23 PFLOPS FP8; however, Nvidia's mature CUDA software ecosystem remains a major competitive advantage.
+MicroG's GmsCore project, a free-libre reimplementation of Google's proprietary Android user space, is highlighted in a GitHub wiki and a Hacker News discussion with 374 points and 91 comments. The project enables apps that depend on Google Play Services APIs to run on AOSP-based ROMs such as LineageOS without Google's proprietary components. MicroG is a key enabler of the de-Googled Android ecosystem, giving privacy-conscious users a way to run mainstream apps without Google's data collection. Its continued development affects custom ROM users, privacy advocates, and anyone seeking alternatives to Google Mobile Services. MicroG relies on signature spoofing to impersonate Google's proprietary libraries, which is narrowly scoped on LineageOS but can introduce security risks. It also cannot fully replace all proprietary and privileged software that many Android devices depend on, and app compatibility varies.
 
-rss · TechCrunch · Oct 19, 18:37
+hackernews · theanonymousone · Oct 20, 06:37 · [Discussion](https://news.ycombinator.com/item?id=50162177)
 
-**Background**: Tenstorrent, headquartered in Austin, Texas, builds AI chips and licensable IP based on a RISC-V CPU plus Tensix AI core architecture, targeting inference and training across edge, server, and cloud deployments. Unlike most AI chip startups that use proprietary architectures and software stacks, Tenstorrent bets on RISC-V and open-source software as its competitive wedge against Nvidia. The term 'open-weight' in AI typically refers to models whose weights are published, though training data and code may not be fully open.
+**Background**: Google Play Services is a proprietary background service and API layer that many Android apps rely on for features like push notifications, location, and in-app payments. Custom ROMs such as LineageOS ship without it, so some apps break. MicroG reimplements those APIs as free software, allowing users to keep Google-dependent apps working while avoiding Google's proprietary code. De-Googling refers to removing Google services from an Android device for privacy or independence reasons.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://artificialintelligencecompanies.com/co/tenstorrent/">Tenstorrent – AI Company Review, Capabilities & Profile [2026]</a></li>
-<li><a href="https://aiwiki.ai/wiki/tenstorrent">Tenstorrent | AI Wiki</a></li>
-<li><a href="https://www.spheron.network/blog/tenstorrent-vs-nvidia-open-source-ai-hardware/">Tenstorrent vs NVIDIA 2026: Blackhole Specs, $110K Price ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/MicroG">MicroG - Wikipedia</a></li>
+<li><a href="https://github.com/microg/GmsCore/wiki/Downloads">Downloads · microg/GmsCore Wiki · GitHub</a></li>
+<li><a href="https://daily.dev/posts/microg-free-libre-re-implementation-of-google-s-proprietary-android-user-space-ovh7vuiuu">MicroG: Free-libre re-implementation of Google's proprietary ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI hardware`, `#semiconductors`, `#funding`, `#open-weight AI`, `#Nvidia competition`
+**Discussion**: Commenters noted that even with MicroG, no Android device functions without piles of proprietary, often privileged software. Others discussed signature spoofing as a necessary but risky workaround, and one user asked why recent commits lack descriptive messages. A user also wondered whether MicroG's ability to handle Google service calls explains why some apps work on MicroG but not on LineageOS.
+
+**Tags**: `#Android`, `#privacy`, `#open-source`, `#Google`, `#mobile`
 
 ---
 
 <a id="item-15"></a>
-## [Amazon to fund 12 small nuclear reactors at former Indiana coal plant](https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/) ⭐️ 7.0/10
+## [Paul Tyma Remembers Bob Cringely: Visionary Ideas, Lack of Discipline](https://tyma.com/my-cringe-story/) ⭐️ 7.0/10
 
-Amazon and X-energy have signed another deal to deploy nuclear power, this time funding 12 small modular reactors at a former coal plant site in Indiana, with a combined capacity of nearly 1 gigawatt. Utility American Electric Power (AEP) would operate the plant, while X-energy, which went public in April, would supply the reactors. This is a significant industry announcement: a major hyperscaler funding roughly 1 GW of small modular reactor capacity at a repurposed coal site signals growing corporate investment in nuclear power for data centers and grid supply. It also demonstrates the emerging model of repurposing former coal plants for clean firm power, which could be replicated elsewhere. The deal involves 12 small modular reactors from X-energy, totaling nearly 1 gigawatt, with AEP as the operator. X-energy designs high-temperature gas-cooled reactors (HTGRs), specifically the Xe-100, and went public in April; however, the news brief lacks technical specifications, timeline, and cost details.
+Paul Tyma published a personal remembrance of his friend Bob Cringely (Mark Stephens), reflecting on Cringely's visionary ideas and his recurring failure to execute them. The post, shared on Hacker News, coincides with Cringely's recent death and has sparked discussion about his legacy in Silicon Valley. Cringely was a influential technology journalist and author whose work chronicled the rise of Silicon Valley, and his entrepreneurial missteps offer cautionary lessons about the gap between vision and execution. The discussion highlights how his writing shaped public understanding of the tech industry while his own ventures struggled to find product-market fit. Tyma notes that Cringely's emails invariably paired a big idea with promises of how much money it would make, and commenters observe that Cringely lacked the discipline to stick with ventures long enough to pivot and find product-market fit. Cringely was also known to have inflated his credentials, such as claiming to be a former Stanford professor.
 
-rss · TechCrunch · Oct 19, 16:55
+hackernews · zinxq · Oct 20, 14:13 · [Discussion](https://news.ycombinator.com/item?id=50166794)
 
-**Background**: Small modular reactors (SMRs) are next-generation nuclear reactors designed to generate around 300 megawatts or less, offering a smaller and more flexible alternative to conventional large nuclear plants. Tech hyperscalers like Amazon, Google, Microsoft, and Meta have been signing nuclear power deals to secure carbon-free electricity for energy-hungry AI data centers. Amazon previously invested in X-energy in October 2024 and has also struck deals with Talen Energy for nuclear power in Pennsylvania.
+**Background**: Robert X. Cringely is the pen name of technology journalist Mark Stephens, who wrote a long-running column for InfoWorld and authored the 1992 book 'Accidental Empires,' a popular history of the personal computer industry. He also produced documentaries such as 'Triumph of the Nerds' and 'Plane Crazy,' and later founded startups including a CubeSat air-launch company. His work made him a well-known commentator on Silicon Valley culture and innovation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://x-energy.com/news/amazon-invests-in-x-energy-to-support-advanced-small-modular-nuclear-reactors-and-expand-carbon-free-power/">Amazon Invests in X-energy to Support Advanced Small Modular ...</a></li>
-<li><a href="https://finance.yahoo.com/energy/articles/amazon-fund-12-small-nuclear-165556260.html?fr=sycsrp_catchall">Amazon to fund 12 small nuclear reactors at former Indiana ...</a></li>
-<li><a href="https://smrintel.com/nuclear-data-center-deals/">Every Nuclear Data Center Deal: Google, Amazon, Meta ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Robert_X._Cringely">Robert X. Cringely - Wikipedia</a></li>
+<li><a href="https://www.managementcraft.co/people/robert-cringely">Robert X. Cringely / Management Craft</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#nuclear-energy`, `#small-modular-reactors`, `#amazon`, `#data-center-power`, `#energy-infrastructure`
+**Discussion**: Commenters shared anecdotes and links to Cringely's obituary and the 'Plane Crazy' documentary, with one noting that Cringely's problem was never having the discipline to hang on long enough to pivot and find product-market fit. Others highlighted Paul Tyma's own accomplishments, such as creating Mailinator, and expressed appreciation for the post while lamenting the blog's infrequent updates.
+
+**Tags**: `#Silicon Valley`, `#Cringely`, `#entrepreneurship`, `#obituary`, `#technology history`
 
 ---
 
 <a id="item-16"></a>
-## [Nvidia launches open models for enterprise and on-device AI agents](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/) ⭐️ 7.0/10
+## [Facebook Pages now require paid subscription to post more than two links per month](https://mastodon.gamedev.place/@AshleyGullen/117473851565913919) ⭐️ 7.0/10
 
-Nvidia has released new open models designed to let enterprises run AI agents within their own data centers and to enable private, on-device agents on PCs. The announcement reflects Nvidia's push into both enterprise self-hosted AI and local agent deployment. This move matters because enterprises increasingly want to keep sensitive data in-house while deploying agentic AI, and on-device agents could reduce latency and cloud costs. Nvidia's entry could accelerate adoption of private AI deployments and intensify competition with other open-model providers. The models are part of Nvidia's Nemotron family, which includes compact variants like Nemotron 3 Nano 4B for local RTX AI PCs, and Nvidia also offers NeMo Switchyard, an open-source routing library for agent workflows. However, the provided excerpt lacks specifics on model sizes, benchmarks, and licensing terms.
+Facebook has begun limiting non-paying Pages and professional accounts to just two posts containing external links per month, with additional link posts requiring a paid subscription to Meta One for Business, starting at $49.99 per month for the Advanced tier. This policy represents a significant monetization shift that could further entrench platform lock-in and undermine the open web by making it costly for businesses and creators to direct their audience to external content. The link limit resets on the first of each month for default accounts, while Meta One subscribers have it reset on their subscription renewal date, and unused link posts do not roll over; the policy also appears to affect users who previously converted to a professional account.
 
-rss · TechCrunch · Oct 19, 15:37
+hackernews · AshleysBrain · Oct 20, 15:06 · [Discussion](https://news.ycombinator.com/item?id=50167536)
 
-**Background**: Open models are AI models whose weights are publicly released, allowing organizations to download, run, and fine-tune them on their own infrastructure. AI agents are systems that use large language models to plan and execute multi-step tasks autonomously. Nvidia, known for its GPUs, has been expanding into AI software and models to support enterprise and edge deployments.
+**Background**: Facebook Pages are public profiles used by businesses, brands, and public figures to connect with their audience. Meta One for Business is a newly launched paid subscription bundle that offers additional features and higher limits for professional accounts. This move is part of a broader trend where social platforms are increasingly charging for features that were once free, raising concerns about the future of hyperlinks and open access on the web.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developer.nvidia.com/topics/ai/nemotron">Nemotron AI Models | NVIDIA Developer</a></li>
-<li><a href="https://blogs.nvidia.com/blog/rtx-ai-garage-gtc-2026-nemoclaw/">RTX PCs and DGX Spark Supercomputers Run AI ... | NVIDIA Blog</a></li>
-<li><a href="https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/">Nvidia launches new open models to run agents in the ...</a></li>
+<li><a href="https://www.facebook.com/help/1929252614431792/">About links in organic Facebook Page posts and comments</a></li>
+<li><a href="https://www.socialmediatoday.com/news/facebook-pages-get-charged-for-link-posts/830743/">Facebook Pages get charged for link posts - Social Media Today</a></li>
+<li><a href="https://www.stellarmediamarketing.com/post/facebook-pages-2-link-limit-what-to-do-instead">Facebook Pages Can Only Post 2 Links a Month in 2026: Why ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Nvidia`, `#open models`, `#AI agents`, `#enterprise AI`, `#on-device AI`
+**Discussion**: Commenters largely view this as monetization creep and a blow to the open web, with some noting it may also target clickbait engagement tactics, while others see it as a boon for independent websites and a sign of Facebook's declining relevance.
+
+**Tags**: `#Facebook`, `#monetization`, `#platform policy`, `#hyperlinks`, `#social media`
 
 ---
 
 <a id="item-17"></a>
-## [Cohere's North Micro Vision encoder gains llama.cpp support](https://www.reddit.com/r/LocalLLaMA/comments/1xa0cyz/llamacpp_support_for_cohere_models/) ⭐️ 7.0/10
+## [Rust Compiler's 2026 Roadmap: New Trait Solver and More](https://yoyo-code.com/2026-is-exciting-year-for-rust-compiler-and-me/) ⭐️ 7.0/10
 
-Cohere announced that llama.cpp support for the vision encoder of North Micro Vision Instruct has been merged, making all of its latest model architectures compatible with llama.cpp. The language model component shares the same architecture as North Mini Code and Command A+, which was already supported. This directly addresses a widely requested feature from the local LLM community, enabling users to run Cohere's latest vision-language models locally through llama.cpp and downstream tools like Ollama and LM Studio. It strengthens Cohere's presence in the open-weight and local inference ecosystem. North Micro Vision is a 2.4B-parameter vision-language model combining a 400M native-resolution vision encoder (initialized from SigLIP 2 SO400M) with a 2B language backbone, released under Apache 2.0 with BF16 weights around 4.97 GB. Cohere also noted that its Transcribe STT model is now available in Unsloth and Unsloth Studio for fine-tuning.
+The author highlights that 2026 will bring major developments to the Rust compiler, including a next-generation trait solver and reductions in long-standing technical debt such as smaller target directories and the Polonius borrow checker. These changes could significantly improve compile times and enable long-awaited language features like specialization, impacting all Rust developers and the language's evolution. The new trait solver aims to replace the existing type system components for proving trait bounds and normalizing associated types, while Polonius is a new borrow checker that promises better performance and correctness.
 
-reddit · r/LocalLLaMA · /u/nick_frosst · Oct 19, 15:43
+hackernews · panstromek · Oct 20, 13:53 · [Discussion](https://news.ycombinator.com/item?id=50166502)
 
-**Background**: llama.cpp is an open-source C/C++ library for running large language models locally, widely regarded as the de facto standard core for local inference tools such as Ollama and LM Studio. Vision-language models pair a vision encoder, which converts images into latent features, with a language model backbone. Cohere's North Micro Vision was released on August 12, 2026, as an open-weight VLM under the Apache 2.0 license.
+**Background**: Rust's trait solver is a core part of the compiler that checks whether types implement required traits, and it has been a source of complexity and slow compile times. The next-generation trait solver is a major rewrite intended to be more efficient and correct, and Polonius is a reimplementation of the borrow checker to fix soundness issues and improve performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Llama.cpp">Llama.cpp</a></li>
-<li><a href="https://huggingface.co/blog/CohereLabs/meet-north-micro-vision-instruct">Meet North Micro Vision: A 2.4B Native-Resolution Vision ...</a></li>
-<li><a href="https://rohitai.com/blog/cohere-north-micro-vision-open-weight-vlm">Cohere’s North Micro Vision Gives Documents Their Pixels Back</a></li>
+<li><a href="https://rust-lang.github.io/goals/2025h2/next-solver.html">Next-generation trait solver - Rust Project Goals</a></li>
+<li><a href="https://rustc-dev-guide.rust-lang.org/traits/resolution.html">Trait solving - Rust Compiler Development Guide</a></li>
+<li><a href="https://www.pingcap.com/blog/rust-compilation-model-calamity/">The Rust Compilation Model Calamity | TiDB</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#llama.cpp`, `#Cohere`, `#local-llm`, `#vision-models`, `#model-integration`
+**Discussion**: Commenters expressed excitement about the new trait solver and smaller target directories, with some hoping it unblocks specialization. However, one long-time contributor argued that Rust's compile times are too slow and predicted a newer language will emerge combining Go's simplicity, Zig's compile speed, and Rust's safety.
+
+**Tags**: `#rust`, `#compilers`, `#programming-languages`, `#trait-solver`, `#compile-times`
 
 ---
 
 <a id="item-18"></a>
-## [AI labs report benchmark scores 6.4% higher than independent testers, on average](https://www.reddit.com/r/LocalLLaMA/comments/1x9skrx/ai_labs_report_benchmark_scores_64_higher_than/) ⭐️ 7.0/10
+## [Simon Willison Highlights Essay on Coding Agents Eroding Programming Joy](https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/) ⭐️ 7.0/10
 
-An analysis on the open-source leaderboard whatmodel.sh matched 611 comparisons of 180 models on 103 benchmarks from 1,629 published results, finding that AI labs report scores 6.4% higher on average than independent testers for the same models and tests. This empirical evidence of benchmark inflation highlights potential bias in self-reported AI evaluations, which could mislead researchers, businesses, and users relying on leaderboards to compare models. The dataset is released under CC BY-SA 4.0 and the code under MIT, with sources and licenses recorded and linked on each model's page; an interactive chart is available at whatmodel.sh/claims.
+Simon Willison highlighted Jeremy Scheff's essay 'My obituary for programming,' which argues that coding agents are eroding the puzzle-solving joy that made programming a desirable career for many developers. This reflection resonates with career programmers who valued the intellectual challenge of coding, sparking discussion about how AI coding agents are reshaping job satisfaction and the nature of software development work. Scheff's essay emphasizes that programming was once seen as a well-paid job solving tricky logic puzzles, but coding agents now handle many of those puzzles, diminishing that source of enjoyment for some developers.
 
-reddit · r/LocalLLaMA · /u/jakecoolguy · Oct 19, 09:47
+rss · Simon Willison · Oct 19, 23:58
 
-**Background**: AI benchmarks are standardized tests used to compare model performance, and leaderboards aggregate these scores. However, labs often report their own results, which may differ from independent evaluations due to factors like test set contamination or selective reporting. Benchmark inflation refers to the phenomenon where reported scores overstate true performance, and open-source leaderboards aim to provide transparent, community-driven comparisons.
+**Background**: Coding agents are AI systems powered by large language models (LLMs) that can autonomously write, debug, and refactor code. As these tools become more capable, they are changing how software is built and the role of human programmers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://whatmodel.sh/">AI model leaderboard: the best AI models you can run ...</a></li>
-<li><a href="https://arxiv.org/html/2410.09247v1">Benchmark Inflation: Revealing LLM Performance Gaps Using ...</a></li>
-<li><a href="https://creativecommons.org/cc-licenses/">Sharing Openly, Sharing Globally - Creative Commons</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LLM">LLM</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI benchmarks`, `#model evaluation`, `#benchmark inflation`, `#open data`, `#LLM leaderboards`
+**Tags**: `#AI`, `#programming`, `#career`, `#LLM`, `#software-engineering`
 
 ---
 
 <a id="item-19"></a>
-## [inclusionAI releases Ming-3.0-audio-flash, a 126B-parameter audio-language MoE model](https://www.reddit.com/r/LocalLLaMA/comments/1x9yd01/inclusionaiming30audioflash_hugging_face/) ⭐️ 7.0/10
+## [FairStress: New Framework Stress-Tests LLM Fairness Under Distribution Shifts](https://huggingface.co/blog/allenai/fairstress) ⭐️ 7.0/10
 
-inclusionAI has released Ming-3.0-audio-flash, a native audio-language Mixture-of-Experts model with 126B total parameters and 6.5B activated per inference step, published on Hugging Face under the MIT license. It accepts audio plus text instructions and supports speech recognition, spoken question answering, long-audio understanding, audio reasoning, and optional synthesized speech responses in Chinese and English. This is a notable open release for the local LLM community because it combines a large MoE backbone with native audio understanding under a permissive MIT license, making advanced audio-language capabilities more accessible for self-hosting and research. It also signals inclusionAI's continued push into multimodal models, following its Ling and Ming model families. The model card documents deployment via Transformers, SGLang, and vLLM-Omni, with a validated SGLang setup using four GPUs for text output and a vLLM-Omni 128K reference profile using eight 80GB H800s, though these are reference configurations rather than minimum requirements. An optional Talker module enables speech output using built-in voices or a reference voice.
+Allen AI has introduced FairStress, an evaluation framework that stress-tests large language models for fairness in decision-making under distribution shifts and adversarial conditions. Unlike static fairness benchmarks, FairStress systematically perturbs inputs to reveal how model fairness degrades when conditions change. Fairness evaluations that only test in-distribution data can give a false sense of security, and FairStress addresses this gap by probing robustness of fairness under realistic shifts. This matters for researchers and practitioners deploying LLMs in high-stakes decisions like hiring or lending, where fairness failures can have legal and ethical consequences. The framework evaluates fairness by applying controlled distribution shifts and adversarial perturbations to prompts, measuring whether disparities in model decisions widen. As a blog post rather than a peer-reviewed paper, it provides a practical methodology but may lack the extensive validation of a formal benchmark.
 
-reddit · r/LocalLLaMA · /u/jacek2023 · Oct 19, 14:27
+rss · Hugging Face Blog · Oct 20, 16:09
 
-**Background**: Mixture-of-Experts (MoE) models use a routing mechanism to activate only a subset of parameters for each token, allowing a very large total parameter count while keeping inference cost closer to a much smaller model. Native audio-language models process audio directly rather than relying on a separate speech-to-text pipeline, enabling tasks like reasoning over environmental sounds and music. inclusionAI is the research organization behind the Ling and Ming model families, and Ming-3.0-audio-flash is its latest audio-focused release.
+**Background**: Distribution shift refers to when the data a model encounters in deployment differs from its training distribution, often causing performance drops. Adversarial conditions involve deliberately crafted inputs designed to fool models. Fairness in LLMs concerns whether model outputs treat different demographic groups equitably, and stress testing is a method to evaluate robustness by pushing systems beyond normal operating conditions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/inclusionAI/Ming-3.0-audio-tiny">inclusionAI/ Ming - 3 . 0 - audio -tiny · Hugging Face</a></li>
-<li><a href="https://recipes.vllm.ai/inclusionAI/Ling-3.0-flash">inclusionAI/Ling- 3 . 0 - flash | vLLM Recipes</a></li>
+<li><a href="https://onlinelibrary.wiley.com/doi/10.1002/aaai.70057">Distribution shifts in trustworthy machine learning - Wu ...</a></li>
+<li><a href="https://arxiv.org/pdf/2512.23524">Trustworthy Machine Learning under Distribution Shifts</a></li>
+<li><a href="https://www.emergentmind.com/papers/2306.04528">PromptRobust: Evaluating LLM Robustness</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Discussion is minimal, but one commenter highlights practical deployment details from the model card and says the first test they would run is a messy multi-speaker recording followed by questions about it, reflecting interest in real-world voice-assistant use cases.
+**Tags**: `#LLM fairness`, `#evaluation`, `#AI ethics`, `#stress testing`, `#decision-making`
 
-**Tags**: `#audio-language model`, `#mixture-of-experts`, `#speech recognition`, `#open-source LLM`, `#multimodal AI`
+---
+
+<a id="item-20"></a>
+## [IBM's ALTK-Evolve tops τ²-bench customer service tasks with learned memory, no frontier model](https://huggingface.co/blog/ibm-research/altk-evolve-bc) ⭐️ 7.0/10
+
+IBM Research published ALTK-Evolve, a memory system for AI agents that learns from past executions by distilling guidelines and injecting them into future prompts, achieving top performance on the τ²-bench customer service benchmark without relying on a frontier model. This demonstrates that agentic memory and on-the-job learning can rival or surpass frontier-model performance on complex customer service tasks, potentially reducing reliance on expensive large models and enabling more efficient, continuously improving agents. ALTK-Evolve distills lessons from completed trajectories into individual retrievable guidelines rather than a full evolving playbook, reducing token costs while preserving learned lessons; it calibrates memory by model tier and injects guidelines at inference time.
+
+rss · Hugging Face Blog · Oct 20, 15:19
+
+**Background**: τ²-bench is a benchmark for conversational agents in dual-control environments, where both the agent and a simulated user can take actions within a shared system, often involving customer service scenarios like retail and airline tasks. ALTK-Evolve is part of IBM Research's work on agentic memory, which aims to help agents improve over time by learning from previous executions without retraining the underlying model.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://huggingface.co/blog/ibm-research/altk-evolve">ALTK ‑ Evolve : On‑the‑Job Learning for AI Agents</a></li>
+<li><a href="https://agent-gateway.com/news/ibm-researchs-altk-evolve-calibrates-agent-memory-by-model">IBM ALTK - Evolve Tunes Agent Memory by Model Tier</a></li>
+<li><a href="https://www.llmreference.com/benchmark/tau-bench">tau- bench Benchmark : τ- bench for LLMs | LLM Reference</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI agents`, `#memory`, `#benchmark`, `#customer service`, `#LLM`
+
+---
+
+<a id="item-21"></a>
+## [Anthropic's cloud partnerships strain as compute demand surges ahead of IPO](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/) ⭐️ 7.0/10
+
+Anthropic is reportedly struggling to secure sufficient compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO. This signals strategic risk for a major AI lab and highlights shifting dynamics between AI companies and cloud providers, who are both partners and rivals in the race to build and monetize AI infrastructure. The report comes as Anthropic prepares for a November IPO, with infrastructure spending rising sharply; however, specific figures on compute shortfalls or contract terms were not disclosed.
+
+rss · TechCrunch · Oct 20, 21:25
+
+**Background**: Anthropic is an AI safety and research company behind the Claude family of large language models. Training and running such models requires massive amounts of compute, typically rented from cloud providers like AWS, Google Cloud, and Azure, which also develop competing AI models and services. As AI labs scale up, they increasingly compete with their cloud suppliers for scarce GPU capacity, creating tension in these partnerships.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://wetheflywheel.com/en/guides/ai-compute-neocloud-providers-2026/">AI Compute and Neocloud Providers 2026: Vendor Comparison</a></li>
+<li><a href="https://neuralcoretech.com/ai-cloud-infrastructure-race-2026/">AI Cloud Infrastructure Race 2026: AWS vs Azure vs Google ...</a></li>
+<li><a href="https://www.anthropic.com/news/introducing-claude">Introducing Claude \ Anthropic</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Anthropic`, `#cloud-computing`, `#AI-infrastructure`, `#IPO`, `#industry-news`
+
+---
+
+<a id="item-22"></a>
+## [OpenAI acquires Orchestra Bio to boost life sciences AI](https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/) ⭐️ 7.0/10
+
+OpenAI announced on Tuesday that it has acquired Orchestra Bio, a four-year-old AI biotech software startup, and will integrate its team and technology into Rosalind, OpenAI's AI model and workbench for life sciences research. The acquisition terms were not disclosed. This acquisition signals OpenAI's deepening commitment to AI-driven drug discovery and could accelerate the development of Rosalind into a more comprehensive platform for biopharma R&D. It may intensify competition with other AI-for-science efforts and affect how life science researchers use AI tools. Orchestra Bio had built an intelligent management platform for R&D to help biotech and pharma teams manage complex drug development programs. OpenAI plans to add Orchestra's technology to both the Rosalind model and the Rosalind Workbench tool, which aims to help researchers plan experiments and analyze results.
+
+rss · TechCrunch · Oct 20, 20:35
+
+**Background**: OpenAI recently launched Rosalind, its first domain-specific AI model for life sciences, as a research preview for qualified enterprise customers. Rosalind Workbench is an agent-based platform that combines the GPT-Rosalind model with guided scientific tasks, molecular and sequence viewers, and integrations such as Nvidia's BioNeMo tools. Orchestra Bio was founded four years ago to help biotech and pharma teams advance drug development programs by managing thousands of decisions and dependencies across discovery, preclinical, manufacturing, and clinical stages.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://openai.com/index/openai-to-acquire-orchestra-bio/">OpenAI acquires Orchestra Bio</a></li>
+<li><a href="https://orchestra.bio/">Intelligent management platform for R&D - Orchestra</a></li>
+<li><a href="https://developers.openai.com/blog/rosalind-workbench">Meet Rosalind Workbench : Empowering every scientist to be their...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#OpenAI`, `#biotech`, `#acquisition`, `#AI for science`, `#life sciences`
+
+---
+
+<a id="item-23"></a>
+## [Google joins Amazon in challenging Nvidia's AI hardware dominance with PyTorch migration tool](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/) ⭐️ 7.0/10
+
+Google has released a developer tool that simplifies moving PyTorch applications off Nvidia GPUs, following Amazon's similar move. This directly challenges Nvidia's stronghold in AI hardware by making it easier for developers to switch to alternative hardware. This matters because Nvidia's dominance in AI hardware is largely built on its CUDA software ecosystem, which locks developers into its GPUs. By easing migration of PyTorch workloads, Google and Amazon aim to lower the barrier to using their own AI chips (like Google's TPUs), potentially reshaping the AI infrastructure market and giving customers more choices. The tool is specifically designed for PyTorch, one of the most popular deep learning frameworks, and aims to reduce the code changes needed to run models on non-Nvidia hardware. However, the article lacks technical specifics such as which hardware platforms are supported or performance benchmarks.
+
+rss · TechCrunch · Oct 20, 18:38
+
+**Background**: PyTorch is an open-source deep learning library widely used for training and deploying AI models, and it traditionally relies on Nvidia's CUDA for GPU acceleration. Nvidia's GPUs have become the de facto standard for AI workloads, but competitors like Google (with its TPUs) and Amazon (with its Trainium and Inferentia chips) are trying to break this lock-in by making it easier to run PyTorch on their hardware.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/PyTorch">PyTorch - Wikipedia</a></li>
+<li><a href="https://thinkautomated.io/news/google-and-meta-push-pytorch-onto-tpus-to-dent-nvidias-software-moat">Google and Meta Push PyTorch onto TPUs to Dent Nvidia ’s Software...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI infrastructure`, `#Nvidia`, `#PyTorch`, `#cloud computing`, `#hardware competition`
+
+---
+
+<a id="item-24"></a>
+## [Google Threat Intelligence Group Uncovers Ephemeral Supply Chain Tampering](https://www.reddit.com/r/programming/comments/1xarzjw/google_threat_intelligence_group_investigating/) ⭐️ 7.0/10
+
+Google Threat Intelligence Group (GTIG) published research on a novel class of software supply chain attacks called ephemeral supply chain tampering, attributed to threat actor UNC7017. The group's operational security relies on short, time-compressed server modifications that are difficult to detect. This research highlights a growing trend of stealthy supply chain attacks that can bypass traditional security measures, affecting software developers and organizations relying on shared or ephemeral CI environments. It underscores the need for enhanced monitoring and hardening of build and deployment pipelines. The attacks are characterized by ephemeral, time-compressed server modifications, making them hard to detect and attribute. Shared runners or ephemeral CI environments introduce additional risks, as attackers can exploit misconfigurations like git remote set-url to inject malicious changes.
+
+reddit · r/programming · /u/CircumspectCapybara · Oct 20, 13:21
+
+**Background**: Software supply chain attacks exploit vulnerabilities in third-party components or build processes to inject malicious code into software used by many organizations. Ephemeral environments, such as temporary CI/CD runners, are often used for efficiency but can lack persistent security controls, making them attractive targets for attackers seeking to avoid detection.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/">Investigating Ephemeral Supply Chain Tampering | Google Cloud Blog</a></li>
+<li><a href="https://xygeni.io/blog/when-git-remote-set-url-becomes-a-supply-chain-risk/">When Git remote set-url Becomes a Supply Chain Risk | Xygeni</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Supply_chain_attack">Supply chain attack - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#supply-chain-security`, `#cybersecurity`, `#threat-intelligence`, `#software-engineering`, `#google`
 
 ---
